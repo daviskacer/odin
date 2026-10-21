@@ -1,0 +1,228 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0d17a11e-0001-4000-8000-000000000001")
+	(paper "A4")
+	(title_block
+		(title "Odin dev carrier - Waveshare ESP32-P4-WIFI6 HAT")
+		(rev "0.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 30 30)
+		(size 80 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d17a11e-0001-4000-8000-000000000002")
+		(property "Sheetname" "Waveshare ESP32-P4-WIFI6 interface + power"
+			(at 30 28.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "header.kicad_sch"
+			(at 30 71.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "odin_dev"
+				(path "/0d17a11e-0001-4000-8000-000000000001"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140 30)
+		(size 80 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d17a11e-0001-4000-8000-000000000003")
+		(property "Sheetname" "Sensor Input Ports 1-2"
+			(at 140 28.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor_ports.kicad_sch"
+			(at 140 71.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "odin_dev"
+				(path "/0d17a11e-0001-4000-8000-000000000001"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 90)
+		(size 80 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d17a11e-0001-4000-8000-000000000004")
+		(property "Sheetname" "Motor Output Ports A-B"
+			(at 30 88.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_ports.kicad_sch"
+			(at 30 131.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "odin_dev"
+				(path "/0d17a11e-0001-4000-8000-000000000001"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140 90)
+		(size 80 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d17a11e-0001-4000-8000-000000000005")
+		(property "Sheetname" "Analog - 1x MCP3008"
+			(at 140 88.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 140 131.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "odin_dev"
+				(path "/0d17a11e-0001-4000-8000-000000000001"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 150)
+		(size 80 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d17a11e-0001-4000-8000-000000000006")
+		(property "Sheetname" "Expander, CAN, display, LED"
+			(at 30 148.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "devio.kicad_sch"
+			(at 30 191.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "odin_dev"
+				(path "/0d17a11e-0001-4000-8000-000000000001"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

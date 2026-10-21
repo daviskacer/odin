@@ -1,0 +1,16 @@
+ODIN (Open Droid INterface) is dual-licensed by the kind of material:
+
+  Hardware   CERN-OHL-S-2.0   see LICENSE-HARDWARE
+  Software   MIT              see LICENSE-SOFTWARE
+
+"Hardware" means the hardware design source: schematics, PCB layouts,
+footprints, symbols, enclosure and mechanical designs, and the scripts
+that generate them.
+
+"Software" means firmware, host tools, the browser-based editor, the
+Cyphal DSDL definitions, and any other source code not covered above.
+
+Where a file carries its own SPDX-License-Identifier header, that header
+takes precedence for that file.
+
+SPDX-License-Identifier: CERN-OHL-S-2.0 AND MIT
