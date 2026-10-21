@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "odin")(type "KiCad")(uri "${KIPRJMOD}/../footprints/odin.pretty")(options "")(descr "Odin custom footprints - shared with the production brick project"))
+)
